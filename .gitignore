@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+*.db
+*.sqlite3
+
+# Environment variables & secrets (Never commit secrets!)
+.env
+backend/.env
+frontend/.env
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
